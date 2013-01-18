@@ -1,1 +1,12 @@
-test
+This repository contains all of the information required to produce an 8x1 multiplexer shield for the Arduino Uno. The shield features two sets of heavy duty screw terminals for coupling sensors to the Arduino. It is assumed that each sensor has three leads: one for Power (5V), one for a ground connection, and one for a return signal (0-5V). The shield is fully compatible with the Arduino Uno datalogger shield sold by Adafruit Industries, Inc. A full system (Arduino + datalogger + multiplexer shield) easily records input from up to 8 external sensors.   
+
+
+UnoMuxShieldV1.0.brd -- the EAGLE printed circuit board layout
+
+UnoMuxShieldV1.0.sch -- the EAGLE schematic for the circuit board
+
+UnoMuxShieldV1.0_gerb.zip -- a zip file containing the Gerber files for the PCB. The files follow the format required by the PCB production house OSH Park (www.oshpark.com). If you upload the zip file to their web site, then they should be able to produce a PCB without a hitch.
+
+UnoMuxShieldV1.0_png.zip -- a zip file containing images (.png format) of the board outline, silks, masks, and drills, etc. The files aren't necessary for production. However, you can view them in a standard image viewer to get a sense of what the final product will look like.  
+
+ArduinoMuxParts.pdf -- a pdf file containing a list of of the parts required for executing the project. It also contains a list of selected vendors and vendor part numbers, which should make it easier for you to complete the project.
